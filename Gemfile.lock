@@ -1,0 +1,26 @@
+PATH
+  remote: .
+  specs:
+    podoy (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (13.1.0)
+
+PLATFORMS
+  arm64-darwin-20
+  arm64-darwin-23
+  ruby
+  x86_64-linux
+
+DEPENDENCIES
+  podoy!
+  rake (~> 13.0)
+
+CHECKSUMS
+  podoy (0.1.0)
+  rake (13.1.0) sha256=be6a3e1aa7f66e6c65fa57555234eb75ce4cf4ada077658449207205474199c6
+
+BUNDLED WITH
+   2.5.0.dev
