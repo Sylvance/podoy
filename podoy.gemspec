@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description = "Podoy is gem suite of modules that each enables you to write clean, safe and idiomatic ruby code."
   spec.homepage = "https://github.com/Sylvance/podoy/blob/main/README.md"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 2.6.0"
+  spec.required_ruby_version = ">= 3.2.2"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 

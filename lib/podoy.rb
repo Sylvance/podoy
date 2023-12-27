@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "podoy/version"
+Dir[File.join(__dir__, "podoy", "*.rb")].sort.each { |file| require file }
 
 module Podoy
   class Error < StandardError; end
